@@ -146,3 +146,14 @@
                     // const a = "welcome";
                     // console.log(a.slice(1,3))
                     // console.log(a.slice(-4,-1))
+
+
+
+           
+        // let a = "aman";
+        // let b = "raman";
+        // let c = "komal";
+
+        // let x = ["aman","raman","komal",123,true,undefined,{},[]]
+
+        // ab start hota h array
