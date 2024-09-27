@@ -112,3 +112,18 @@
 
             // let arr = [["kullu","shimla"],["spiti","jammu","kashmir"],["aman"]]
             // console.log(arr[0][1][0])
+
+
+
+            // console.log(1);
+            // console.log(2);
+            // console.log(3);
+            // console.log(4);
+            // console.log(5);
+
+            // const arr = [1,2,3,4,5];
+            // console.log(arr[0])
+            // console.log(arr[1])
+
+
+            //  ab start hota h loop
