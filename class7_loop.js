@@ -89,13 +89,73 @@
 
 
 
-        let a = ["kullu","manali","shimla","jammu","kashmir","mohali","palamgoa","palampur","kerala"];
+        // let a = ["kullu","manali","shimla","jammu","kashmir","mohali","palamgoa","palampur","kerala"];
         // console.log(a[0])
         // console.log(a[1])
         // console.log(a[2])
         // console.log(a[3])
         // console.log(a[4])
 
-        for(let x = 0; x<a.length; x++){
-              console.log(a[x])
-        }
+        // for(let x = 0; x<a.length; x++){
+        //       console.log(a[x])
+        // }
+
+
+        // for(let i = 0; i<=10; i++){
+        //     console.log(i)
+        //     if(i==7){
+        //         break;
+        //     }
+           
+        // }
+
+
+        //    for(let i = 0; i<=10; i++){
+            
+        //     if(i==7){
+        //         continue;
+        //     }
+          
+        //     if(i==9){
+        //         continue;
+        //     }
+
+        //     console.log(i)
+        // }
+
+
+        // let i = 0;
+
+        // while(i<=10){
+        //       console.log(i*2)
+        //       i++;
+        // }
+
+
+
+        // let i = 0;
+
+        // do{
+        //     console.log(i*3);
+        //     i++;
+        // }while(i>=10)
+
+
+        // let arr = [1,2,7,66,88];
+           
+            //  console.log(arr[0])
+            //  console.log(arr[1])
+            //  console.log(arr[2])
+            //  console.log(arr[3])
+
+            // for(let i = 0; i<arr.length; i++){
+            //     console.log(arr[i])
+            // }
+
+            // for-of loop
+
+            // let arr = [1,2,7,66,88];
+
+            // for(let i of arr){
+            //     console.log(i)
+            // }
