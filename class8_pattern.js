@@ -36,3 +36,38 @@
 
 //        let a  =  Array.from(new Set(arr));
 //        console.log(a)
+
+
+// console.log(2)
+// console.log(4)
+
+// for(let i = 0; i<=10; i++){
+//     console.log(i*2);
+// }
+// for(let i = 0; i<=10; i++){
+//     console.log(i*2);
+// }
+// for(let i = 0; i<=10; i++){
+//     console.log(i*2);
+// }
+// for(let i = 0; i<=10; i++){
+//     console.log(i*2);
+// }
+
+// for(let i = 0; i<=10; i++){
+//     console.log(i*2);
+// }
+
+
+
+
+//    for(let i = 1; i<=5; i++){
+//     for(let i = 0; i<=10; i++){
+//         console.log(i*2)
+//         console.log(i*3)
+//        }
+//    }
+
+
+
+// ab start hota h function
