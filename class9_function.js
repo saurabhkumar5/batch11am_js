@@ -52,14 +52,94 @@
 
 
 
-            function evenValue(a){
-                      if(a%2==0){
-                        console.log("even value",a)
-                      }
-                      else{
-                        console.log("odd value",a)
-                      }
-            }
+            // function evenValue(a){
+            //           if(a%2==0){
+            //             console.log("even value",a)
+            //           }
+            //           else{
+            //             console.log("odd value",a)
+            //           }
+            // }
             
-            evenValue(3215696521)
+            // evenValue(3215696521)
              
+
+
+          //   function marriage(a){
+
+          //       console.log("happy marriage",a)
+
+          //       return a
+
+          //   }
+
+          //  const z = marriage("clock");
+          //  console.log(z)
+
+
+
+      //    function add(a,b){
+      //     console.log(a+b)
+
+      //     return a+b
+      //    }
+
+      // const z  = add(10,20)
+      //   if(z%2==0){
+      //     console.log("its even number")
+      //   }else{
+      //     console.log("its odd number")
+      //   }
+
+      //   for(let i = 0; i<z; i++){
+      //     console.log(i)
+      //   }
+
+           
+      // 2. anonymous function
+           
+              //  const momo  = function (){
+              //       console.log("hello")
+              //       return "welcome"
+              //     }
+              //    const a  = momo()
+              //    console.log(a)
+                 
+
+// 3. arrow function
+
+          // const a =  ()=>{
+          //     console.log("hello")
+          //    }
+
+          //    a();
+                
+                
+
+            //  const z  = ()=>{
+            //       console.log("welcome");
+            //       return "helllo"
+            //     }
+            //   const a  = z()
+            //   console.log(a)
+
+
+            //  const a  = ()=>console.log("hello");
+            //          a();
+
+
+            //  const a = ()=>"hello"
+            //      console.log(a())
+            //  const z = a();
+            //    console.log(z);
+
+
+
+              //  const a = (a)=>a*10;
+              //        const b  = a(10);
+              //        console.log(b)
+
+
+                const a  = x=>x*x;
+                      const b = a(10,20)
+                      console.log(b)
