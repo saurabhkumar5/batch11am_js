@@ -7,7 +7,7 @@
 // 7. generator function
 // 8. callback hell
 // 9. promises
-// 10.inner function
+// 10.inner/outer function
 // 11. closure function
 // 12. async await function
 // 13. function constructor
@@ -140,6 +140,67 @@
               //        console.log(b)
 
 
-                const a  = x=>x*x;
-                      const b = a(10,20)
-                      console.log(b)
+                // const a  = x=>x*x;
+                //       const b = a(10,20)
+                //       console.log(b)
+
+
+
+
+
+
+ // 4. self-invoking function
+ 
+ 
+            // (
+            //   function momo(){
+            //     console.log("hellooo")
+            //   }
+            // )()
+
+            // (
+            //   function (){
+            //     console.log("hellooo")
+            //   }
+            // )()
+
+
+            // (
+            //   (a)=>{
+            //     console.log("hellooo",a)
+            //   }
+            // )(10)
+
+
+            // let a = function dosa(){
+            //     console.log("manali")
+            // };
+
+            //  a();
+// 4. callback function
+
+    //    function momo(a){
+    //     // console.log(a)
+    //     // dosa()
+            
+    //        console.log("kullu")
+    //        a()
+    //    }
+
+    //    function dosa(){
+    //     console.log("i love dosa")
+    //  }
+        
+    //    momo(dosa)
+
+
+
+      //   function hola(x,y){
+      //     console.log(x)
+      //     console.log(y)
+      //     y()
+
+      //     console.log("hello")
+      //   }
+      
+      //  hola(123,()=>console.log("kullu"));
