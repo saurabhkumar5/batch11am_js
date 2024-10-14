@@ -32,4 +32,61 @@
 
 
             // console.log(document)
-            console.log(window)
+        //     console.log(window)
+
+
+
+        // const h1 = document.querySelector('#heading')
+        
+
+        //  h1.style.backgroundColor = "red"
+        //  h1.style.color = "yellow"
+        //  h1.style.width = "500px"
+        //  h1.style.height = "500px"
+        //  h1.style.textAlign = "center"
+        //  h1.innerHTML = "kulluuu"
+        //  h1.classList.add("simran")
+
+        //  console.log(h1)
+
+
+
+        // const heading  =  document.createElement('h1');
+
+        //     heading.innerHTML = "most welcome"
+        // console.log(heading)
+
+        //  const h1   = document.querySelector('#heading')
+        //    h1.appendChild(heading)
+
+
+        // const h1 = document.getElementById('heading')
+        // const btn = document.getElementById('btn')
+      
+        //           let a = true
+        //    btn.addEventListener('click',()=>{
+        //         // h1.style.backgroundColor = "yellow"
+        //         // h1.style.textAlign = "center"
+        //         if(a){
+        //              h1.style.backgroundColor = "yellow"
+        //              h1.style.textAlign = "center"
+        //         }else{
+        //               h1.style.backgroundColor = ""
+        //               h1.style.textAlign = ""
+        //         }
+
+        //         a = !a
+        //    })
+
+
+        const bulb  = document.getElementById('img')
+        const btn = document.getElementById('btn')
+
+          btn.addEventListener('click',()=>{
+
+                if(bulb.src.match('off')){
+                        bulb.src = './bulbon.jpg'
+                }else{
+                        bulb.src = './bulboff.jpg'
+                }
+          })
