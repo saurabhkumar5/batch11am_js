@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>my todo</h1>
+    <input type="text" id="itemInput" placeholder="enter an item">
+    <button onclick="addItem()">Add</button>
+    <button>allDelete</button>
+  
+
+
+    <script>
+
+
+
+        function addItem(){
+            const input = document.getElementById('itemInput');
+            const li  = document.createElement('li')
+            const body = document.querySelector('body')
+            // console.log(input.value)
+            // console.log(li)
+
+            li.innerHTML = input.value;
+            body.appendChild(li)
+
+             const deleteBtn = document.createElement('button')
+             deleteBtn.innerHTML = "Delete"
+             deleteBtn.style.backgroundColor = "red"
+             li.appendChild(deleteBtn)
+
+              deleteBtn.addEventListener('click',()=>{
+                li.remove();
+              })
+           
+        }
+        
+         
+        
+
+
+
+    </script>
+</body>
+</html>
